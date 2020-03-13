@@ -1,10 +1,46 @@
 <template>
   <section class="search">
-    <HeaderTop title="搜索"/>
-    <form class="search_form" action="#">
-      <input type="search" name="search" placeholder="请输入商家或美食名称" class="search_input">
-      <input type="submit" name="submit" class="search_submit">
+    <header class="header">
+      <a class="header_title">
+        <span class="header_title_text ellipsis">搜索</span>
+      </a>
+    </header>
+    <form class="search_form">
+      <input type="search" placeholder=" 请输入商家名称" class="search_input">
+      <input type="submit" class="search_submit">
     </form>
+    <section class="list">
+      <ul class="list_container">
+        <li class="list_li">
+          <section class="item_left">
+            <img src="http://cangdu.org:8001/img/16265a70fe27854.jpg" class="restaurant_img">
+          </section>
+          <section class="item_right">
+            <div class="item_right_text">
+              <p>
+                <span>aaa</span>
+              </p>
+              <p>月售 671 单</p>
+              <p>20 元起送 / 距离 1058.2 公里</p>
+            </div>
+          </section>
+        </li>
+        <li class="list_li">
+          <section class="item_left">
+            <img src="http://cangdu.org:8001/img/16265a70fe27854.jpg" class="restaurant_img">
+          </section>
+          <section class="item_right">
+            <div class="item_right_text">
+              <p>
+                <span>aaa</span>
+              </p>
+              <p>月售 671 单</p>
+              <p>20 元起送 / 距离 1058.2 公里</p>
+            </div>
+          </section>
+        </li>
+      </ul>
+    </section>
   </section>
 </template>
 
